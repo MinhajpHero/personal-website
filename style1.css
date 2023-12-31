@@ -1,0 +1,53 @@
+
+body{ margin: 0;
+    font-family: 'popins',sans-serif;
+}
+h1{font-size: 50px;
+    color: brown;
+}
+h2{
+    font-size: 40px;
+}
+.half-width{
+    float:left;
+    width: 35%;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.half-width sr{
+    float: left;
+}
+.half-width image{
+    width: 30%;
+    padding-right: 2%;
+}
+.link{
+    text-decoration: none;
+    background-color: maroon;
+    color: white;
+    padding: 5px 10px;
+}
+.top-banner{
+    background-image: url(images/biography-bg.png);
+    
+    background-repeat:no-repeat
+    background-position:right;
+}
+.Biography{
+    background-image: url(c:\Web Development\Projects\complete-web-development-bangla-resources\personal-website\biography-bg.png);
+}
+*{
+    box-sizing: border-box;
+}
+.pic{
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    repeat:no-repeat;
+
+}
